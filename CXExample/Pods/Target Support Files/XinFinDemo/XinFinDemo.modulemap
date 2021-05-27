@@ -1,0 +1,6 @@
+framework module XinFinDemo {
+  umbrella header "XinFinDemo-umbrella.h"
+
+  export *
+  module * { export * }
+}

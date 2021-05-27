@@ -1,0 +1,24 @@
+{
+  "name": "XinFinDemo",
+  "version": "0.1.0",
+  "summary": "This is the best framework for ever",
+  "description": "XinFin Framework is used to get the XinFin XDC Data",
+  "homepage": "https://github.com/prashanth2468/XinfinDemo",
+  "license": "MIT",
+  "authors": {
+    "Prashant": "Prashanth@leewayhertz.com"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source": {
+    "git": "https://github.com/prashanth2468/XinfinDemo.git",
+    "tag": "0.1.0"
+  },
+  "source_files": [
+    "XinFinDemo",
+    "XinFinDemo/**/*.{h,m}"
+  ],
+  "swift_versions": "5.0",
+  "swift_version": "5.0"
+}

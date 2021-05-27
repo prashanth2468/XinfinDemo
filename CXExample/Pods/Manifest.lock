@@ -1,0 +1,16 @@
+PODS:
+  - XinFinDemo (0.1.0)
+
+DEPENDENCIES:
+  - XinFinDemo (from `../XinFinDemo`)
+
+EXTERNAL SOURCES:
+  XinFinDemo:
+    :path: "../XinFinDemo"
+
+SPEC CHECKSUMS:
+  XinFinDemo: 1b977f8a94dc69d9930d261f54792616586f27d3
+
+PODFILE CHECKSUM: 54e6486473a3305e19548723982077e5f24b5f51
+
+COCOAPODS: 1.10.0
