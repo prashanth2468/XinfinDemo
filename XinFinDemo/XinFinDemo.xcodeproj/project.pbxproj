@@ -16,7 +16,12 @@
 		6EEA54BB2667A1D600FCC35A /* XinFinMethods.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EEA54BA2667A1D600FCC35A /* XinFinMethods.swift */; };
 		6EEA54BF2667A7C800FCC35A /* XinFinDemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EEA54BE2667A7C800FCC35A /* XinFinDemoViewController.swift */; };
 		6EEA54C32667AA7E00FCC35A /* XinFinDemoModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EEA54C22667AA7E00FCC35A /* XinFinDemoModel.swift */; };
-		90EF7BB754B8BFF70C4C0EAA /* Pods_XinFinDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 77FDC33FD6167BB9A2C9B4C8 /* Pods_XinFinDemo.framework */; };
+		6EEA55132667C95900FCC35A /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6EEA55122667C95900FCC35A /* Alamofire.framework */; };
+		6EEA55142667C95900FCC35A /* Alamofire.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 6EEA55122667C95900FCC35A /* Alamofire.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		6EEA55172667C95C00FCC35A /* Pods_XinFinDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 77FDC33FD6167BB9A2C9B4C8 /* Pods_XinFinDemo.framework */; };
+		6EEA55182667C95C00FCC35A /* Pods_XinFinDemo.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 77FDC33FD6167BB9A2C9B4C8 /* Pods_XinFinDemo.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		6EEA551A2667C96500FCC35A /* SwiftyJSON.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6EEA55192667C96500FCC35A /* SwiftyJSON.framework */; };
+		6EEA551B2667C96500FCC35A /* SwiftyJSON.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 6EEA55192667C96500FCC35A /* SwiftyJSON.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,6 +33,22 @@
 			remoteInfo = XinFinDemo;
 		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		6EEA55152667C95900FCC35A /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				6EEA55142667C95900FCC35A /* Alamofire.framework in Embed Frameworks */,
+				6EEA55182667C95C00FCC35A /* Pods_XinFinDemo.framework in Embed Frameworks */,
+				6EEA551B2667C96500FCC35A /* SwiftyJSON.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		18A4B231265D09760043946C /* XinFinDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = XinFinDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -42,6 +63,8 @@
 		6EEA54BA2667A1D600FCC35A /* XinFinMethods.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = XinFinMethods.swift; path = ../../../../../XinFinMethods.swift; sourceTree = "<group>"; };
 		6EEA54BE2667A7C800FCC35A /* XinFinDemoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = XinFinDemoViewController.swift; path = ../../../../../XinFinDemoViewController.swift; sourceTree = "<group>"; };
 		6EEA54C22667AA7E00FCC35A /* XinFinDemoModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XinFinDemoModel.swift; sourceTree = "<group>"; };
+		6EEA55122667C95900FCC35A /* Alamofire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Alamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6EEA55192667C96500FCC35A /* SwiftyJSON.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = SwiftyJSON.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		77FDC33FD6167BB9A2C9B4C8 /* Pods_XinFinDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_XinFinDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		85C1FEBE14C363FE422E698A /* Pods_XinFinDemo_XinFinDemoTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_XinFinDemo_XinFinDemoTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		926EE4DAB2F0C372ACB84EE3 /* Pods-XinFinDemo-XinFinDemoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XinFinDemo-XinFinDemoTests.release.xcconfig"; path = "Target Support Files/Pods-XinFinDemo-XinFinDemoTests/Pods-XinFinDemo-XinFinDemoTests.release.xcconfig"; sourceTree = "<group>"; };
@@ -54,7 +77,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				90EF7BB754B8BFF70C4C0EAA /* Pods_XinFinDemo.framework in Frameworks */,
+				6EEA55132667C95900FCC35A /* Alamofire.framework in Frameworks */,
+				6EEA55172667C95C00FCC35A /* Pods_XinFinDemo.framework in Frameworks */,
+				6EEA551A2667C96500FCC35A /* SwiftyJSON.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -73,6 +98,8 @@
 		0BF09658A31083026478E5A5 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				6EEA55192667C96500FCC35A /* SwiftyJSON.framework */,
+				6EEA55122667C95900FCC35A /* Alamofire.framework */,
 				77FDC33FD6167BB9A2C9B4C8 /* Pods_XinFinDemo.framework */,
 				85C1FEBE14C363FE422E698A /* Pods_XinFinDemo_XinFinDemoTests.framework */,
 			);
@@ -156,6 +183,7 @@
 				18A4B22D265D09760043946C /* Sources */,
 				18A4B22E265D09760043946C /* Frameworks */,
 				18A4B22F265D09760043946C /* Resources */,
+				6EEA55152667C95900FCC35A /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
