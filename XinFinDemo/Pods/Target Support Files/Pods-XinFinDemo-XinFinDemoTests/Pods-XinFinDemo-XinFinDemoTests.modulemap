@@ -1,0 +1,6 @@
+framework module Pods_XinFinDemo_XinFinDemoTests {
+  umbrella header "Pods-XinFinDemo-XinFinDemoTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

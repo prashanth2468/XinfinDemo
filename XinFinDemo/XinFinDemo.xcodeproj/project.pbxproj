@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -11,6 +11,12 @@
 		18A4B240265D09770043946C /* XinFinDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18A4B23F265D09770043946C /* XinFinDemoTests.swift */; };
 		18A4B242265D09770043946C /* XinFinDemo.h in Headers */ = {isa = PBXBuildFile; fileRef = 18A4B234265D09760043946C /* XinFinDemo.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		18A4B24C265D0A510043946C /* XinFinValidator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18A4B24B265D0A510043946C /* XinFinValidator.swift */; };
+		497ADC0792AB8E00C64DBE43 /* Pods_XinFinDemo_XinFinDemoTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 85C1FEBE14C363FE422E698A /* Pods_XinFinDemo_XinFinDemoTests.framework */; };
+		6EEA54B726679F8A00FCC35A /* AlamofireWebService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EEA54B626679F8A00FCC35A /* AlamofireWebService.swift */; };
+		6EEA54BB2667A1D600FCC35A /* XinFinMethods.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EEA54BA2667A1D600FCC35A /* XinFinMethods.swift */; };
+		6EEA54BF2667A7C800FCC35A /* XinFinDemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EEA54BE2667A7C800FCC35A /* XinFinDemoViewController.swift */; };
+		6EEA54C32667AA7E00FCC35A /* XinFinDemoModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EEA54C22667AA7E00FCC35A /* XinFinDemoModel.swift */; };
+		90EF7BB754B8BFF70C4C0EAA /* Pods_XinFinDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 77FDC33FD6167BB9A2C9B4C8 /* Pods_XinFinDemo.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -31,6 +37,16 @@
 		18A4B23F265D09770043946C /* XinFinDemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XinFinDemoTests.swift; sourceTree = "<group>"; };
 		18A4B241265D09770043946C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		18A4B24B265D0A510043946C /* XinFinValidator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XinFinValidator.swift; sourceTree = "<group>"; };
+		232BC995B5F7FE8A6DA829A0 /* Pods-XinFinDemo-XinFinDemoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XinFinDemo-XinFinDemoTests.debug.xcconfig"; path = "Target Support Files/Pods-XinFinDemo-XinFinDemoTests/Pods-XinFinDemo-XinFinDemoTests.debug.xcconfig"; sourceTree = "<group>"; };
+		6EEA54B626679F8A00FCC35A /* AlamofireWebService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlamofireWebService.swift; sourceTree = "<group>"; };
+		6EEA54BA2667A1D600FCC35A /* XinFinMethods.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = XinFinMethods.swift; path = ../../../../../XinFinMethods.swift; sourceTree = "<group>"; };
+		6EEA54BE2667A7C800FCC35A /* XinFinDemoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = XinFinDemoViewController.swift; path = ../../../../../XinFinDemoViewController.swift; sourceTree = "<group>"; };
+		6EEA54C22667AA7E00FCC35A /* XinFinDemoModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XinFinDemoModel.swift; sourceTree = "<group>"; };
+		77FDC33FD6167BB9A2C9B4C8 /* Pods_XinFinDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_XinFinDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		85C1FEBE14C363FE422E698A /* Pods_XinFinDemo_XinFinDemoTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_XinFinDemo_XinFinDemoTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		926EE4DAB2F0C372ACB84EE3 /* Pods-XinFinDemo-XinFinDemoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XinFinDemo-XinFinDemoTests.release.xcconfig"; path = "Target Support Files/Pods-XinFinDemo-XinFinDemoTests/Pods-XinFinDemo-XinFinDemoTests.release.xcconfig"; sourceTree = "<group>"; };
+		B09B5F2001AB5C672C6A4997 /* Pods-XinFinDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XinFinDemo.release.xcconfig"; path = "Target Support Files/Pods-XinFinDemo/Pods-XinFinDemo.release.xcconfig"; sourceTree = "<group>"; };
+		D8F07FD4D9881305392DCF04 /* Pods-XinFinDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XinFinDemo.debug.xcconfig"; path = "Target Support Files/Pods-XinFinDemo/Pods-XinFinDemo.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,6 +54,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				90EF7BB754B8BFF70C4C0EAA /* Pods_XinFinDemo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -46,18 +63,31 @@
 			buildActionMask = 2147483647;
 			files = (
 				18A4B23B265D09770043946C /* XinFinDemo.framework in Frameworks */,
+				497ADC0792AB8E00C64DBE43 /* Pods_XinFinDemo_XinFinDemoTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0BF09658A31083026478E5A5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				77FDC33FD6167BB9A2C9B4C8 /* Pods_XinFinDemo.framework */,
+				85C1FEBE14C363FE422E698A /* Pods_XinFinDemo_XinFinDemoTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		18A4B227265D09760043946C = {
 			isa = PBXGroup;
 			children = (
+				6EEA54B526679F7600FCC35A /* Helpers */,
 				18A4B233265D09760043946C /* XinFinDemo */,
 				18A4B23E265D09770043946C /* XinFinDemoTests */,
 				18A4B232265D09760043946C /* Products */,
+				2BEF293529ECD96611AC94BA /* Pods */,
+				0BF09658A31083026478E5A5 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -75,7 +105,10 @@
 			children = (
 				18A4B234265D09760043946C /* XinFinDemo.h */,
 				18A4B235265D09760043946C /* Info.plist */,
+				6EEA54BA2667A1D600FCC35A /* XinFinMethods.swift */,
 				18A4B24B265D0A510043946C /* XinFinValidator.swift */,
+				6EEA54BE2667A7C800FCC35A /* XinFinDemoViewController.swift */,
+				6EEA54C22667AA7E00FCC35A /* XinFinDemoModel.swift */,
 			);
 			path = XinFinDemo;
 			sourceTree = "<group>";
@@ -87,6 +120,25 @@
 				18A4B241265D09770043946C /* Info.plist */,
 			);
 			path = XinFinDemoTests;
+			sourceTree = "<group>";
+		};
+		2BEF293529ECD96611AC94BA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D8F07FD4D9881305392DCF04 /* Pods-XinFinDemo.debug.xcconfig */,
+				B09B5F2001AB5C672C6A4997 /* Pods-XinFinDemo.release.xcconfig */,
+				232BC995B5F7FE8A6DA829A0 /* Pods-XinFinDemo-XinFinDemoTests.debug.xcconfig */,
+				926EE4DAB2F0C372ACB84EE3 /* Pods-XinFinDemo-XinFinDemoTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		6EEA54B526679F7600FCC35A /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				6EEA54B626679F8A00FCC35A /* AlamofireWebService.swift */,
+			);
+			path = Helpers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -107,6 +159,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 18A4B245265D09770043946C /* Build configuration list for PBXNativeTarget "XinFinDemo" */;
 			buildPhases = (
+				F6965D8E9F6563B795930144 /* [CP] Check Pods Manifest.lock */,
 				18A4B22C265D09760043946C /* Headers */,
 				18A4B22D265D09760043946C /* Sources */,
 				18A4B22E265D09760043946C /* Frameworks */,
@@ -125,9 +178,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 18A4B248265D09770043946C /* Build configuration list for PBXNativeTarget "XinFinDemoTests" */;
 			buildPhases = (
+				9230418631E5406A10700F62 /* [CP] Check Pods Manifest.lock */,
 				18A4B236265D09770043946C /* Sources */,
 				18A4B237265D09770043946C /* Frameworks */,
 				18A4B238265D09770043946C /* Resources */,
+				49368D63193D522D65F21D8A /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -193,12 +248,80 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		49368D63193D522D65F21D8A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-XinFinDemo-XinFinDemoTests/Pods-XinFinDemo-XinFinDemoTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-XinFinDemo-XinFinDemoTests/Pods-XinFinDemo-XinFinDemoTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-XinFinDemo-XinFinDemoTests/Pods-XinFinDemo-XinFinDemoTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9230418631E5406A10700F62 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-XinFinDemo-XinFinDemoTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F6965D8E9F6563B795930144 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-XinFinDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		18A4B22D265D09760043946C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				18A4B24C265D0A510043946C /* XinFinValidator.swift in Sources */,
+				6EEA54BF2667A7C800FCC35A /* XinFinDemoViewController.swift in Sources */,
+				6EEA54BB2667A1D600FCC35A /* XinFinMethods.swift in Sources */,
+				6EEA54C32667AA7E00FCC35A /* XinFinDemoModel.swift in Sources */,
+				6EEA54B726679F8A00FCC35A /* AlamofireWebService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -345,6 +468,7 @@
 		};
 		18A4B246265D09770043946C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D8F07FD4D9881305392DCF04 /* Pods-XinFinDemo.debug.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -370,6 +494,7 @@
 		};
 		18A4B247265D09770043946C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B09B5F2001AB5C672C6A4997 /* Pods-XinFinDemo.release.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -394,6 +519,7 @@
 		};
 		18A4B249265D09770043946C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 232BC995B5F7FE8A6DA829A0 /* Pods-XinFinDemo-XinFinDemoTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -412,6 +538,7 @@
 		};
 		18A4B24A265D09770043946C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 926EE4DAB2F0C372ACB84EE3 /* Pods-XinFinDemo-XinFinDemoTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
