@@ -14,7 +14,7 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         
         XinFinValidator.helloXinFin()
-        let xinfinAPI = XinFinMethods()
+        let xinfinAPI = XinFinValidator()
          xinfinAPI.getTransactionDetails(txHash: "0xd2d93b7617438534f48e078c3df0a8734e58af9bff9d1ab62697520855a2138d", success: { (successData) in
              print(successData.hashValue)
              

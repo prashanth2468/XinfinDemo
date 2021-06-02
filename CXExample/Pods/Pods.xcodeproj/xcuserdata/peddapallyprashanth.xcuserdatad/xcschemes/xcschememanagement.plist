@@ -4,22 +4,22 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>Alamofire.xcscheme</key>
+		<key>Pods-CXExample-CXExampleUITests.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
 		</dict>
-		<key>Pods-XinFinDemo-XinFinDemoTests.xcscheme</key>
+		<key>Pods-CXExample.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
 		</dict>
-		<key>Pods-XinFinDemo.xcscheme</key>
+		<key>Pods-CXExampleTests.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
 		</dict>
-		<key>SwiftyJSON.xcscheme</key>
+		<key>XinFinDemo.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>

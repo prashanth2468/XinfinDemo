@@ -7,39 +7,40 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0CA8DFA6717C60FAB9492DBB0BE7E5A3 /* XinFinDemoModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3FA9DCBAF247705BDB8FA705CF27F72 /* XinFinDemoModel.swift */; };
-		120128EEF68A99848B1B08B33D122DE0 /* XinFinDemo-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C8222F2BBCE20E97BE161F0AC272E6EE /* XinFinDemo-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0EAA490406863153E31AC61360A5E155 /* XinFinDemo-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3035D00F5A1FFE5303AF1E6C865837C4 /* XinFinDemo-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		2444D8CE717482EEDAA02EFE4336B46E /* Pods-CXExampleTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3CDA3EB9075BB70951D9250431073DD4 /* Pods-CXExampleTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		2727317DAB40F1318B156A6D063446AB /* XinFinDemo.h in Headers */ = {isa = PBXBuildFile; fileRef = F7E0CE619F5EC3FBFA1314E7A2600E56 /* XinFinDemo.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		2AD69816772FAB17C0BB6F086FE9EEB7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		4A99B824109F79B7EEF3ED2E4CF77EA0 /* XinFinDemo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9209783CD5158ECEBCB9BBB0A5177A14 /* XinFinDemo-dummy.m */; };
 		5ECEF991807564C5EBCE1D9FC65499D9 /* Pods-CXExample-CXExampleUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CCA1A4F8F3F9EECDFAA9995A6460A6F /* Pods-CXExample-CXExampleUITests-dummy.m */; };
-		61C22341E00213644FF2F8BC537298B2 /* XinFinValidator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C3D3D85B9DC9C877BF081039AC09094 /* XinFinValidator.swift */; };
 		897768615DE2EDF26A99FD4C8A014182 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		96F118578CC98E8957448B071F8665F2 /* Pods-CXExampleTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 90C55165338F49DCA8DD1C2AF67445B8 /* Pods-CXExampleTests-dummy.m */; };
 		A1CF4377AA5412EBF114ED17628FE5BB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		A364984563CEB80BA380A2BCAC245151 /* XinFinDemoModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4CB28EF2C8B564945F39D86A8C7DDFA /* XinFinDemoModel.swift */; };
+		A8888E3DE45DEB5625B3F9629E490E3B /* XinFinDemo.h in Headers */ = {isa = PBXBuildFile; fileRef = 896E2A0C60BF0DD86CBCE6CB35C7D921 /* XinFinDemo.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B045B2E74F899C8E9A3CC52F8F545D0A /* Pods-CXExample-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 47E5C1A077DF0E6B1603DCD1ABD012EB /* Pods-CXExample-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B3B70AEF534B7890A8703F4D10BA98A9 /* Pods-CXExample-CXExampleUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A4FD6E971CD9517BC3885C6E8E38CC07 /* Pods-CXExample-CXExampleUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B78525BF0897438CDC4EFCC8B2CB1A2D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		C579D2C03CEC6BE43A4EA4FD4E5359A9 /* AlamofireWebService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F42ADD0FAE200585799393008FC604A /* AlamofireWebService.swift */; };
+		D6EBE29D54AA7E1BB7F84D0427B2EE4C /* XinFinDemo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D6F2899D4A72E2E1821876A9B0C2FCD7 /* XinFinDemo-dummy.m */; };
+		ED28A55FDC4487DF2FB82B334F79C920 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		EDB21B684F2F2483CFF92CF3F17A89A8 /* Pods-CXExample-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D7CB8377A1BFC54E0255E91B0DD27643 /* Pods-CXExample-dummy.m */; };
+		F951ED505608510B4DB70C587734D992 /* XinFinValidator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 302A9F1A78CCA474ED98B180112107F9 /* XinFinValidator.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		27C6E80FAF1F32B7A5B98752347E18C4 /* PBXContainerItemProxy */ = {
+		0AFC64E2CC42064C8056859A53E82875 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 6153D6217A343F532EA2257DD413AEF2;
 			remoteInfo = XinFinDemo;
 		};
-		4069C6A04C4908C5183C4AD32A588921 /* PBXContainerItemProxy */ = {
+		51707511F3095C9B58D5CFD1DF788360 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 6153D6217A343F532EA2257DD413AEF2;
 			remoteInfo = XinFinDemo;
 		};
-		C282ED7500F0F3CB4D556ECC591F6F9C /* PBXContainerItemProxy */ = {
+		BBF775153C74DF0BE97E37A465D33C73 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
@@ -52,46 +53,47 @@
 		02CB763C2C5F962700618C24DEBF052D /* Pods-CXExample-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CXExample-acknowledgements.markdown"; sourceTree = "<group>"; };
 		0CCA1A4F8F3F9EECDFAA9995A6460A6F /* Pods-CXExample-CXExampleUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CXExample-CXExampleUITests-dummy.m"; sourceTree = "<group>"; };
 		12159C2E938B4D29893C004B59472298 /* Pods-CXExampleTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CXExampleTests-Info.plist"; sourceTree = "<group>"; };
+		1F42ADD0FAE200585799393008FC604A /* AlamofireWebService.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AlamofireWebService.swift; path = XinFinDemo/AlamofireWebService.swift; sourceTree = "<group>"; };
 		2280F1CBB94F10F923157431DF73F6AA /* Pods-CXExample-CXExampleUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CXExample-CXExampleUITests-acknowledgements.plist"; sourceTree = "<group>"; };
 		22A22FD771E5EC1E6F9DE09AB1E2AAC4 /* Pods-CXExampleTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CXExampleTests.release.xcconfig"; sourceTree = "<group>"; };
 		281837845591D260074F513366A15F35 /* Pods_CXExample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_CXExample.framework; path = "Pods-CXExample.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		302A9F1A78CCA474ED98B180112107F9 /* XinFinValidator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = XinFinValidator.swift; path = XinFinDemo/XinFinValidator.swift; sourceTree = "<group>"; };
+		3035D00F5A1FFE5303AF1E6C865837C4 /* XinFinDemo-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "XinFinDemo-umbrella.h"; sourceTree = "<group>"; };
 		397558F141207D71B15EC66A1939942D /* Pods-CXExampleTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CXExampleTests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		39FB330EF0969C2A27DFC3C8CE8BCC28 /* Pods-CXExample-CXExampleUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CXExample-CXExampleUITests-frameworks.sh"; sourceTree = "<group>"; };
 		3CDA3EB9075BB70951D9250431073DD4 /* Pods-CXExampleTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CXExampleTests-umbrella.h"; sourceTree = "<group>"; };
-		424AD8B1E091A89DD50AEF56780DDAB7 /* XinFinDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = XinFinDemo.release.xcconfig; sourceTree = "<group>"; };
 		47E5C1A077DF0E6B1603DCD1ABD012EB /* Pods-CXExample-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CXExample-umbrella.h"; sourceTree = "<group>"; };
 		4C3A5B3A34FA02C4052D215DACD93FB5 /* Pods-CXExample-CXExampleUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CXExample-CXExampleUITests.release.xcconfig"; sourceTree = "<group>"; };
 		4E500B4D48A64C2DA61905F35EB87589 /* Pods-CXExample-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CXExample-Info.plist"; sourceTree = "<group>"; };
+		65B5DAC0C43BC4DFB5031D970DBB2DE7 /* XinFinDemo-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "XinFinDemo-prefix.pch"; sourceTree = "<group>"; };
 		71227A353836604C7F7D5953F1DC7858 /* Pods-CXExample-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CXExample-frameworks.sh"; sourceTree = "<group>"; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		7A1FFAA23DAB72FDF87389FBF4710FC1 /* Pods-CXExampleTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CXExampleTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		7CFBCDECA6D3B6B582F7E0A162D60A4A /* XinFinDemo.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = XinFinDemo.modulemap; sourceTree = "<group>"; };
 		7E6784C233B1C50D6DC9B9D0E5B619DA /* Pods-CXExample.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-CXExample.modulemap"; sourceTree = "<group>"; };
-		83E22C53B34CC869523FC91DBEEF808C /* XinFinDemo-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "XinFinDemo-Info.plist"; sourceTree = "<group>"; };
-		8C3D3D85B9DC9C877BF081039AC09094 /* XinFinValidator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = XinFinValidator.swift; path = XinFinDemo/XinFinValidator.swift; sourceTree = "<group>"; };
+		896E2A0C60BF0DD86CBCE6CB35C7D921 /* XinFinDemo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XinFinDemo.h; path = XinFinDemo/XinFinDemo.h; sourceTree = "<group>"; };
 		90C55165338F49DCA8DD1C2AF67445B8 /* Pods-CXExampleTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CXExampleTests-dummy.m"; sourceTree = "<group>"; };
-		9209783CD5158ECEBCB9BBB0A5177A14 /* XinFinDemo-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "XinFinDemo-dummy.m"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A4FD6E971CD9517BC3885C6E8E38CC07 /* Pods-CXExample-CXExampleUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CXExample-CXExampleUITests-umbrella.h"; sourceTree = "<group>"; };
 		A9F8397D90E86D33CE3954C8C825D03A /* Pods-CXExample-CXExampleUITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CXExample-CXExampleUITests-Info.plist"; sourceTree = "<group>"; };
 		AEA187E42D58FA624EE4B049C890C9F7 /* Pods-CXExample-CXExampleUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-CXExample-CXExampleUITests.modulemap"; sourceTree = "<group>"; };
 		AF5A8316691101066EAAEAF340C53ECD /* Pods_CXExampleTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_CXExampleTests.framework; path = "Pods-CXExampleTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BB39BE34BB28651290617F3074FEBED1 /* Pods-CXExample-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CXExample-acknowledgements.plist"; sourceTree = "<group>"; };
+		C3B86F16B160F34E64DEF3CD6547F88E /* XinFinDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = XinFinDemo.release.xcconfig; sourceTree = "<group>"; };
 		C419D697C53C9177E9B3951C5EE6DB34 /* Pods-CXExample-CXExampleUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CXExample-CXExampleUITests.debug.xcconfig"; sourceTree = "<group>"; };
-		C8222F2BBCE20E97BE161F0AC272E6EE /* XinFinDemo-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "XinFinDemo-umbrella.h"; sourceTree = "<group>"; };
 		C935DB3084103D807CD961CB8D9EC4A4 /* XinFinDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = XinFinDemo.framework; path = XinFinDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CDA6036327632956FAB3D9145AF9CF59 /* XinFinDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = XinFinDemo.debug.xcconfig; sourceTree = "<group>"; };
+		CE0E38517B714D9055EC9A3163062682 /* XinFinDemo-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "XinFinDemo-Info.plist"; sourceTree = "<group>"; };
+		D6F2899D4A72E2E1821876A9B0C2FCD7 /* XinFinDemo-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "XinFinDemo-dummy.m"; sourceTree = "<group>"; };
 		D7CB8377A1BFC54E0255E91B0DD27643 /* Pods-CXExample-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CXExample-dummy.m"; sourceTree = "<group>"; };
 		DEB2B0C9F8D67498F6AE42FA2829F20D /* Pods-CXExampleTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CXExampleTests.debug.xcconfig"; sourceTree = "<group>"; };
 		DF4D2C25CAC602DA8A2A04D540861D20 /* Pods-CXExample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CXExample.release.xcconfig"; sourceTree = "<group>"; };
-		E4AE3325DB09E0AD6297B3ACF40DEF52 /* XinFinDemo-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "XinFinDemo-prefix.pch"; sourceTree = "<group>"; };
+		E79E20FC3F36C3FC9A29882624C85D84 /* XinFinDemo.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = XinFinDemo.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		EC6A69821C7772F3528047F2EB589A31 /* Pods-CXExampleTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-CXExampleTests.modulemap"; sourceTree = "<group>"; };
-		F16EB7114807BB6A62772BD9C6BB5CEE /* XinFinDemo.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = XinFinDemo.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		F3FA9DCBAF247705BDB8FA705CF27F72 /* XinFinDemoModel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = XinFinDemoModel.swift; path = XinFinDemo/XinFinDemoModel.swift; sourceTree = "<group>"; };
 		F4B137F06D4EB5F69B89C9FC281C9C02 /* Pods-CXExample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CXExample.debug.xcconfig"; sourceTree = "<group>"; };
-		F62B76FD414478066CE70FDA9E8A6ABE /* XinFinDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = XinFinDemo.debug.xcconfig; sourceTree = "<group>"; };
-		F7E0CE619F5EC3FBFA1314E7A2600E56 /* XinFinDemo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XinFinDemo.h; path = XinFinDemo/XinFinDemo.h; sourceTree = "<group>"; };
+		F4CB28EF2C8B564945F39D86A8C7DDFA /* XinFinDemoModel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = XinFinDemoModel.swift; path = XinFinDemo/XinFinDemoModel.swift; sourceTree = "<group>"; };
 		F806AE4DAB898E92637BEF4029407A49 /* Pods-CXExample-CXExampleUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CXExample-CXExampleUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		FE8A25B5BA9637A4BB6E70B39216D4BD /* Pods_CXExample_CXExampleUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_CXExample_CXExampleUITests.framework; path = "Pods-CXExample-CXExampleUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		FFCA0E67F1876B9A1675A7E35C9A8C97 /* XinFinDemo.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = XinFinDemo.modulemap; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,11 +105,11 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		36D1C473851DC578341BFDD445FC16C1 /* Frameworks */ = {
+		6BC113E91777CF69E9EE3A5EA795D5A9 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B78525BF0897438CDC4EFCC8B2CB1A2D /* Foundation.framework in Frameworks */,
+				ED28A55FDC4487DF2FB82B334F79C920 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -130,14 +132,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0510931444EE24A7BCD7DD051F6752C0 /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				60B389D9F5BE2936F7DD79149F61BF86 /* XinFinDemo */,
-			);
-			name = "Development Pods";
-			sourceTree = "<group>";
-		};
 		38F876765AD8C8809A09D2B53938D45D /* Pods-CXExample-CXExampleUITests */ = {
 			isa = PBXGroup;
 			children = (
@@ -166,16 +160,16 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		555934D28F36CAD405316AE00EA589BF /* Support Files */ = {
+		4CDE1102DDA85E25658165B03FE802AD /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				FFCA0E67F1876B9A1675A7E35C9A8C97 /* XinFinDemo.modulemap */,
-				9209783CD5158ECEBCB9BBB0A5177A14 /* XinFinDemo-dummy.m */,
-				83E22C53B34CC869523FC91DBEEF808C /* XinFinDemo-Info.plist */,
-				E4AE3325DB09E0AD6297B3ACF40DEF52 /* XinFinDemo-prefix.pch */,
-				C8222F2BBCE20E97BE161F0AC272E6EE /* XinFinDemo-umbrella.h */,
-				F62B76FD414478066CE70FDA9E8A6ABE /* XinFinDemo.debug.xcconfig */,
-				424AD8B1E091A89DD50AEF56780DDAB7 /* XinFinDemo.release.xcconfig */,
+				7CFBCDECA6D3B6B582F7E0A162D60A4A /* XinFinDemo.modulemap */,
+				D6F2899D4A72E2E1821876A9B0C2FCD7 /* XinFinDemo-dummy.m */,
+				CE0E38517B714D9055EC9A3163062682 /* XinFinDemo-Info.plist */,
+				65B5DAC0C43BC4DFB5031D970DBB2DE7 /* XinFinDemo-prefix.pch */,
+				3035D00F5A1FFE5303AF1E6C865837C4 /* XinFinDemo-umbrella.h */,
+				CDA6036327632956FAB3D9145AF9CF59 /* XinFinDemo.debug.xcconfig */,
+				C3B86F16B160F34E64DEF3CD6547F88E /* XinFinDemo.release.xcconfig */,
 			);
 			name = "Support Files";
 			path = "../CXExample/Pods/Target Support Files/XinFinDemo";
@@ -187,27 +181,6 @@
 				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
 			);
 			name = iOS;
-			sourceTree = "<group>";
-		};
-		60B389D9F5BE2936F7DD79149F61BF86 /* XinFinDemo */ = {
-			isa = PBXGroup;
-			children = (
-				F7E0CE619F5EC3FBFA1314E7A2600E56 /* XinFinDemo.h */,
-				F3FA9DCBAF247705BDB8FA705CF27F72 /* XinFinDemoModel.swift */,
-				8C3D3D85B9DC9C877BF081039AC09094 /* XinFinValidator.swift */,
-				713E3858A530FBEAFCE6E7C10956026B /* Pod */,
-				555934D28F36CAD405316AE00EA589BF /* Support Files */,
-			);
-			name = XinFinDemo;
-			path = ../../XinFinDemo;
-			sourceTree = "<group>";
-		};
-		713E3858A530FBEAFCE6E7C10956026B /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				F16EB7114807BB6A62772BD9C6BB5CEE /* XinFinDemo.podspec */,
-			);
-			name = Pod;
 			sourceTree = "<group>";
 		};
 		9C6ECA5919F90011BA2F9D6C6FEF4F92 /* Pods-CXExample */ = {
@@ -237,11 +210,27 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
+		B6812BE149428EBAB626E21F91566A0D /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				E79E20FC3F36C3FC9A29882624C85D84 /* XinFinDemo.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		C3D20F795256A0A70AD4E954D5C654EF /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E13481B37729027118CDCF1DFBC51D77 /* XinFinDemo */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				0510931444EE24A7BCD7DD051F6752C0 /* Development Pods */,
+				C3D20F795256A0A70AD4E954D5C654EF /* Development Pods */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
 				4866A60350C7098111AC23E785020D3D /* Products */,
 				A73AD727C7CB60075EC3BD0C66D5369D /* Targets Support Files */,
@@ -272,23 +261,37 @@
 			path = "Target Support Files/Pods-CXExampleTests";
 			sourceTree = "<group>";
 		};
+		E13481B37729027118CDCF1DFBC51D77 /* XinFinDemo */ = {
+			isa = PBXGroup;
+			children = (
+				1F42ADD0FAE200585799393008FC604A /* AlamofireWebService.swift */,
+				896E2A0C60BF0DD86CBCE6CB35C7D921 /* XinFinDemo.h */,
+				F4CB28EF2C8B564945F39D86A8C7DDFA /* XinFinDemoModel.swift */,
+				302A9F1A78CCA474ED98B180112107F9 /* XinFinValidator.swift */,
+				B6812BE149428EBAB626E21F91566A0D /* Pod */,
+				4CDE1102DDA85E25658165B03FE802AD /* Support Files */,
+			);
+			name = XinFinDemo;
+			path = ../../XinFinDemo;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
+		0E91B5AE162AE0FC2C514D70A28B57E1 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0EAA490406863153E31AC61360A5E155 /* XinFinDemo-umbrella.h in Headers */,
+				A8888E3DE45DEB5625B3F9629E490E3B /* XinFinDemo.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		25D41D199CD31425C635A32A32733BBB /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				B045B2E74F899C8E9A3CC52F8F545D0A /* Pods-CXExample-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		AE1B733D4CE4AF69A5ED452193C88956 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				120128EEF68A99848B1B08B33D122DE0 /* XinFinDemo-umbrella.h in Headers */,
-				2727317DAB40F1318B156A6D063446AB /* XinFinDemo.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -323,7 +326,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				30B7114B0D5961F50BC33655A0850CC2 /* PBXTargetDependency */,
+				87EE8FEE42B8B5C2C46574B1ADB24094 /* PBXTargetDependency */,
 			);
 			name = "Pods-CXExample-CXExampleUITests";
 			productName = "Pods-CXExample-CXExampleUITests";
@@ -332,12 +335,12 @@
 		};
 		6153D6217A343F532EA2257DD413AEF2 /* XinFinDemo */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 79C7DB40975CA7A5FA139EB5419E36FE /* Build configuration list for PBXNativeTarget "XinFinDemo" */;
+			buildConfigurationList = B45233F4BABD77509A7AE460BC975F74 /* Build configuration list for PBXNativeTarget "XinFinDemo" */;
 			buildPhases = (
-				AE1B733D4CE4AF69A5ED452193C88956 /* Headers */,
-				6CF4CB9EB0659B22AB70E94A177893B2 /* Sources */,
-				36D1C473851DC578341BFDD445FC16C1 /* Frameworks */,
-				C2F116BF84E511C5254A52155A702D68 /* Resources */,
+				0E91B5AE162AE0FC2C514D70A28B57E1 /* Headers */,
+				C798D5971CA60BBC176A426E0F4CE83E /* Sources */,
+				6BC113E91777CF69E9EE3A5EA795D5A9 /* Frameworks */,
+				8280D8B3C257C8D1D69C75D66B8784C9 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -360,7 +363,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				0E131DD2C1F72C91F5AFD8CEB3B931AA /* PBXTargetDependency */,
+				EAEB2B2689536FA707E0A8610FD8D11F /* PBXTargetDependency */,
 			);
 			name = "Pods-CXExampleTests";
 			productName = "Pods-CXExampleTests";
@@ -379,7 +382,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				6C8324C9DF1AFE7FCB3ADD854DF07B96 /* PBXTargetDependency */,
+				F14D1AA027F4A849BBA9A13796D63C03 /* PBXTargetDependency */,
 			);
 			name = "Pods-CXExample";
 			productName = "Pods-CXExample";
@@ -424,7 +427,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C2F116BF84E511C5254A52155A702D68 /* Resources */ = {
+		8280D8B3C257C8D1D69C75D66B8784C9 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -448,16 +451,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		6CF4CB9EB0659B22AB70E94A177893B2 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				4A99B824109F79B7EEF3ED2E4CF77EA0 /* XinFinDemo-dummy.m in Sources */,
-				0CA8DFA6717C60FAB9492DBB0BE7E5A3 /* XinFinDemoModel.swift in Sources */,
-				61C22341E00213644FF2F8BC537298B2 /* XinFinValidator.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		8E40F4BCABA99610A5C010935BD08AE1 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -474,6 +467,17 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		C798D5971CA60BBC176A426E0F4CE83E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C579D2C03CEC6BE43A4EA4FD4E5359A9 /* AlamofireWebService.swift in Sources */,
+				D6EBE29D54AA7E1BB7F84D0427B2EE4C /* XinFinDemo-dummy.m in Sources */,
+				A364984563CEB80BA380A2BCAC245151 /* XinFinDemoModel.swift in Sources */,
+				F951ED505608510B4DB70C587734D992 /* XinFinValidator.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		E0DE79FF7091B78818323B199FFB6DA5 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -485,23 +489,23 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		0E131DD2C1F72C91F5AFD8CEB3B931AA /* PBXTargetDependency */ = {
+		87EE8FEE42B8B5C2C46574B1ADB24094 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = XinFinDemo;
+			target = 6153D6217A343F532EA2257DD413AEF2 /* XinFinDemo */;
+			targetProxy = 51707511F3095C9B58D5CFD1DF788360 /* PBXContainerItemProxy */;
+		};
+		EAEB2B2689536FA707E0A8610FD8D11F /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-CXExample";
 			target = E8E133D726F56636CF588E0EDACCE837 /* Pods-CXExample */;
-			targetProxy = C282ED7500F0F3CB4D556ECC591F6F9C /* PBXContainerItemProxy */;
+			targetProxy = BBF775153C74DF0BE97E37A465D33C73 /* PBXContainerItemProxy */;
 		};
-		30B7114B0D5961F50BC33655A0850CC2 /* PBXTargetDependency */ = {
+		F14D1AA027F4A849BBA9A13796D63C03 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = XinFinDemo;
 			target = 6153D6217A343F532EA2257DD413AEF2 /* XinFinDemo */;
-			targetProxy = 4069C6A04C4908C5183C4AD32A588921 /* PBXContainerItemProxy */;
-		};
-		6C8324C9DF1AFE7FCB3ADD854DF07B96 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = XinFinDemo;
-			target = 6153D6217A343F532EA2257DD413AEF2 /* XinFinDemo */;
-			targetProxy = 27C6E80FAF1F32B7A5B98752347E18C4 /* PBXContainerItemProxy */;
+			targetProxy = 0AFC64E2CC42064C8056859A53E82875 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -580,6 +584,41 @@
 			};
 			name = Debug;
 		};
+		370B3942B9B3429A468DA3AB32EB369F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C3B86F16B160F34E64DEF3CD6547F88E /* XinFinDemo.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/XinFinDemo/XinFinDemo-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/XinFinDemo/XinFinDemo-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/XinFinDemo/XinFinDemo.modulemap";
+				PRODUCT_MODULE_NAME = XinFinDemo;
+				PRODUCT_NAME = XinFinDemo;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 		72046AF0A5DD9C88247DB50459E6BDC0 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 4C3A5B3A34FA02C4052D215DACD93FB5 /* Pods-CXExample-CXExampleUITests.release.xcconfig */;
@@ -617,6 +656,40 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
+		};
+		7AF04536384070CF070C67F4158CF5C7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CDA6036327632956FAB3D9145AF9CF59 /* XinFinDemo.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/XinFinDemo/XinFinDemo-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/XinFinDemo/XinFinDemo-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/XinFinDemo/XinFinDemo.modulemap";
+				PRODUCT_MODULE_NAME = XinFinDemo;
+				PRODUCT_NAME = XinFinDemo;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
 		};
 		8DE5143C03248BB6CD542DE3963D6F3A /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -784,75 +857,6 @@
 			};
 			name = Release;
 		};
-		AD51447289C160587AAFD4B710C8D74D /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = F62B76FD414478066CE70FDA9E8A6ABE /* XinFinDemo.debug.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/XinFinDemo/XinFinDemo-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/XinFinDemo/XinFinDemo-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MODULEMAP_FILE = "Target Support Files/XinFinDemo/XinFinDemo.modulemap";
-				PRODUCT_MODULE_NAME = XinFinDemo;
-				PRODUCT_NAME = XinFinDemo;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		C3549D7D949B9AD6BACC368A39D5C255 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 424AD8B1E091A89DD50AEF56780DDAB7 /* XinFinDemo.release.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/XinFinDemo/XinFinDemo-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/XinFinDemo/XinFinDemo-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MODULEMAP_FILE = "Target Support Files/XinFinDemo/XinFinDemo.modulemap";
-				PRODUCT_MODULE_NAME = XinFinDemo;
-				PRODUCT_NAME = XinFinDemo;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
 		CE64557EF49F74AA94F2CB3C55BD665A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = F4B137F06D4EB5F69B89C9FC281C9C02 /* Pods-CXExample.debug.xcconfig */;
@@ -958,20 +962,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		79C7DB40975CA7A5FA139EB5419E36FE /* Build configuration list for PBXNativeTarget "XinFinDemo" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				AD51447289C160587AAFD4B710C8D74D /* Debug */,
-				C3549D7D949B9AD6BACC368A39D5C255 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		8D3433669E0D999302C0836B980F030E /* Build configuration list for PBXNativeTarget "Pods-CXExample-CXExampleUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				21EBE8C263B78561438532BB19C19B97 /* Debug */,
 				72046AF0A5DD9C88247DB50459E6BDC0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B45233F4BABD77509A7AE460BC975F74 /* Build configuration list for PBXNativeTarget "XinFinDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7AF04536384070CF070C67F4158CF5C7 /* Debug */,
+				370B3942B9B3429A468DA3AB32EB369F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
