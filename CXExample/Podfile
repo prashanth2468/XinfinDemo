@@ -1,6 +1,7 @@
 # Uncomment the next line to define a global platform for your project
 # platform :ios, '9.0'
-
+source = "https://github.com/Alamofire/Alamofire.git"
+source = "https://github.com/SwiftyJSON/SwiftyJSON.git"
 target 'CXExample' do
   # Comment the next line if you don't want to use dynamic frameworks
   use_frameworks!
@@ -8,7 +9,8 @@ target 'CXExample' do
   # Pods for CXExample
 
   pod 'XinFinDemo', :path => '../XinFinDemo'
-
+  pod 'Alamofire'
+  pod 'SwiftyJSON'
 
   target 'CXExampleTests' do
     inherit! :search_paths

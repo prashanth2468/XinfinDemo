@@ -9,7 +9,7 @@
     "Prashant": "Prashanth@leewayhertz.com"
   },
   "platforms": {
-    "ios": "9.0"
+    "ios": "11.0"
   },
   "source": {
     "git": "https://github.com/prashanth2468/XinfinDemo.git",
@@ -20,5 +20,17 @@
     "XinFinDemo/**/*.{h,m}"
   ],
   "swift_versions": "5.0",
+  "static_framework": true,
+  "dependencies": {
+    "Alamofire": [
+
+    ],
+    "SwiftyJSON": [
+
+    ]
+  },
+  "pod_target_xcconfig": {
+    "ENABLE_BITCODE": "NO"
+  },
   "swift_version": "5.0"
 }

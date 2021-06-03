@@ -30,7 +30,7 @@ class WebService {
         let session = URLSession.shared
         let dataTask = session.dataTask(with: request as URLRequest, completionHandler: { (data, response, error) -> Void in
             if (error != nil) {
-                print(error)
+                print(error as Any)
                 failure(error!)
                 
             } else {
@@ -67,7 +67,7 @@ class WebService {
             let session = URLSession.shared
             let dataTask = session.dataTask(with: request as URLRequest, completionHandler: { (data, response, error) -> Void in
                 if (error != nil) {
-                    print(error)
+                    print(error as Any)
                     failure(error!)
                     
                 } else {
@@ -108,7 +108,7 @@ class WebService {
         let session = URLSession.shared
         let dataTask = session.dataTask(with: request as URLRequest, completionHandler: { (data, response, error) -> Void in
             if (error != nil) {
-                print(error)
+                print(error as Any)
                 failure(error!)
                 
             } else {
@@ -150,7 +150,7 @@ class AlamoWebServices {
         print(json!)
         request.httpBody = json!.data(using: String.Encoding.utf8.rawValue)
         print(request)
-        Alamofire.request(request).responseJSON { (response) in
+        AF.request(request).responseJSON { (response) in
             switch response.result{
             case .success(let value):
                 if let result = response.data {
@@ -168,7 +168,7 @@ class AlamoWebServices {
     }
     
     func postJSON(path:String,Parameters:[String:Any],success:@escaping(Any)->(),failure:@escaping(Any)->()) {
-        Alamofire.request(path,method:.post,parameters:Parameters).responseJSON { (response) in
+        AF.request(path,method:.post,parameters:Parameters).responseJSON { (response) in
             
             switch response.result{
             case .success(let data):
@@ -200,7 +200,7 @@ class AlamoWebServices {
         ]
         if  let completPath = URL(string: path) {
           
-            Alamofire.request(completPath,method:type,headers:headers).responseJSON { (response) in
+            AF.request(completPath,method:type,headers:headers).responseJSON { (response) in
                 switch response.result{
                 case .success(let value):
                     print(value)
@@ -234,7 +234,7 @@ class AlamoWebServices {
           ]
           if  let completPath = URL(string: path) {
               
-              Alamofire.request(completPath,method:type,parameters:parameters,headers:headers).responseJSON { (response) in
+              AF.request(completPath,method:type,parameters:parameters,headers:headers).responseJSON { (response) in
                   switch response.result{
                   case .success(let value):
                       print(value)
@@ -269,7 +269,7 @@ class AlamoWebServices {
           
           if  let completPath = URL(string: path) {
           
-              Alamofire.request(completPath,method:type,parameters:parameters,encoding:  JSONEncoding.default,headers:headers).responseJSON { (response) in
+              AF.request(completPath,method:type,parameters:parameters,encoding:  JSONEncoding.default,headers:headers).responseJSON { (response) in
                   switch response.result{
                   case .success(let value):
                       print(value)
@@ -299,7 +299,7 @@ class AlamoWebServices {
         print(json!)
         request.httpBody = json!.data(using: String.Encoding.utf8.rawValue)
         print(request)
-        Alamofire.request(request).responseJSON { (response) in
+        AF.request(request).responseJSON { (response) in
             switch response.result{
             case .success(let value):
                 if let result = response.data {
@@ -331,7 +331,7 @@ class AlamoWebServices {
         print(json!)
         request.httpBody = json!.data(using: String.Encoding.utf8.rawValue)
         print(request)
-        Alamofire.request(request).responseString { response in
+        AF.request(request).responseString { response in
             print(response)
             if (response.response?.statusCode != nil){
                 switch response.response!.statusCode {

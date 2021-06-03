@@ -16,12 +16,17 @@ Pod::Spec.new do |spec|
   spec.homepage     = "https://github.com/prashanth2468/XinfinDemo"
   spec.license      = "MIT"
   spec.author       = { "Prashant" => "Prashanth@leewayhertz.com" }
-  spec.platform     = :ios, "9.0"
+  spec.platform     = :ios, "11.0"
   spec.source       = { :git => "https://github.com/prashanth2468/XinfinDemo.git", :tag => spec.version.to_s }
 
 
   spec.source_files  = "XinFinDemo", "XinFinDemo/**/*.{h,m}"
   spec.swift_versions = "5.0"
-
+  spec.static_framework = true
+  spec.dependency "Alamofire"
+  spec.dependency "SwiftyJSON"
+  spec.pod_target_xcconfig = {
+     "ENABLE_BITCODE" => "NO"
+  }
 
 end

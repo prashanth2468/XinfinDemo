@@ -1,16 +1,29 @@
 PODS:
-  - XinFinDemo (0.1.0)
+  - Alamofire (5.4.3)
+  - SwiftyJSON (5.0.1)
+  - XinFinDemo (0.1.0):
+    - Alamofire
+    - SwiftyJSON
 
 DEPENDENCIES:
+  - Alamofire
+  - SwiftyJSON
   - XinFinDemo (from `../XinFinDemo`)
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - SwiftyJSON
 
 EXTERNAL SOURCES:
   XinFinDemo:
     :path: "../XinFinDemo"
 
 SPEC CHECKSUMS:
-  XinFinDemo: 1b977f8a94dc69d9930d261f54792616586f27d3
+  Alamofire: e447a2774a40c996748296fa2c55112fdbbc42f9
+  SwiftyJSON: 2f33a42c6fbc52764d96f13368585094bfd8aa5e
+  XinFinDemo: 9f66a5f7afa30dd79d5322d4efbc89824599cf8d
 
-PODFILE CHECKSUM: 54e6486473a3305e19548723982077e5f24b5f51
+PODFILE CHECKSUM: d00780daf9c5c97c7c579dece4b889b923d58584
 
 COCOAPODS: 1.10.1
